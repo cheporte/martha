@@ -28,6 +28,7 @@ $ martha init ~/vault
 $ martha new cherry-v --lang cpp --tools cmake,git --desc "RISC-V assembler"
 
 $ martha list --lang cpp
+```
 
 ---
 
@@ -37,3 +38,11 @@ $ martha list --lang cpp
 
 Martha is named in honor of someone who, through her art and presence, rekindled a long-lost flame.
 This project is a tribute—quiet and code-shaped.
+
+## 🔮 License
+
+Released under the MIT License. For more details read [here](./LICENSE).
+
+> _“As I was ignited, let your feelings ignite you as well.”_
+> This tool is free to use, fork, and shape—just as inspiration is meant to be.
+Build with it. Break with it. Feel with it.
