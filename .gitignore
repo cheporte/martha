@@ -1,0 +1,39 @@
+# Go binary builds
+/bin/
+/obj/
+/out/
+
+# Go dependencies (when vendoring isn't used)
+vendor/
+
+# Go test binary, as well as cache and coverage
+*.test
+*.out
+*.log
+*.cache
+*.coverage
+
+# IDEs/editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Mac OS system files
+.DS_Store
+
+# OS files
+Thumbs.db
+
+# Go modules files (optional)
+go.sum
+
+# Go build files (the binary or executable)
+martha*
+
+# Configuration files
+*.env
+
+# Docker-specific files
+.dockerignore
+Dockerfile
