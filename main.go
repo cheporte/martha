@@ -1,7 +1,15 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"os"
+
+	"github.com/cheporte/martha/cmd"
+)
 
 func main() {
-    fmt.Println("🌸 Welcome to Martha - your vault of code and memory.")
+	if err := cmd.Execute(); err != nil {
+		fmt.Println("[Error]", err)
+		os.Exit(1)
+	}
 }
