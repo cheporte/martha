@@ -26,5 +26,5 @@ func Execute() error {
 func init() {
 	rootCmd.AddCommand(initCmd)
 
-	initCmd.Flags().StringVarP(&vaultPath, "vault", "v", "", "Custom path for your project vault")
+	initCmd.Flags().StringVarP(&vaultPath, "vault-path", "v", "", "Custom path for your project vault")
 }
